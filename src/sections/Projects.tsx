@@ -1,6 +1,6 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import Hoobank from "@/assets/images/HooBank.png";
 import Image from "next/image";
 import CheckCircle from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -18,7 +18,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
+    link: "https://dark-saas-topaz.vercel.app",
     image: darkSaasLandingPage,
   },
   {
@@ -36,14 +36,14 @@ const portfolioProjects = [
   {
     company: "Quantum Dynamics",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "HooBank",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
-    image: aiStartupLandingPage,
+    link: "https://hoo-bank-alpha-three.vercel.app",
+    image: Hoobank,
   },
 ];
 
